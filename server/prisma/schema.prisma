@@ -1,0 +1,78 @@
+datasource postgres {
+  provider = "postgresql"
+  url      = env("POSTGRESQL_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  classes   Class[]
+  classRuns ClassRun[]
+  createdAt DateTime   @default(now())
+  firstName String?
+  id        String     @id @default(cuid())
+  lastName  String?
+  password  String
+  roles     String[]
+  updatedAt DateTime   @updatedAt
+  username  String     @unique
+}
+
+model Session {
+  classRuns ClassRun[]
+  createdAt DateTime   @default(now())
+  end       DateTime
+  id        String     @id @default(cuid())
+  start     DateTime
+  updatedAt DateTime   @updatedAt
+}
+
+model Class {
+  classRuns   ClassRun[]
+  createdAt   DateTime   @default(now())
+  description String?
+  id          String     @id @default(cuid())
+  imageURL    String?
+  owner       User       @relation(fields: [ownerId], references: [id])
+  ownerId     String
+  title       String
+  updatedAt   DateTime   @updatedAt
+}
+
+model ClassRun {
+  class         Class          @relation(fields: [classId], references: [id])
+  classId       String
+  cost          Float
+  createdAt     DateTime       @default(now())
+  id            String         @id @default(cuid())
+  instructors   User[]
+  maxGrade      Int?
+  minGrade      Int?
+  registrations Registration[]
+  session       Session        @relation(fields: [sessionId], references: [id])
+  sessionId     String
+  updatedAt     DateTime       @updatedAt
+}
+
+model StudentProfile {
+  createdAt     DateTime       @default(now())
+  firstName     String?
+  grade         Int
+  id            String         @id @default(cuid())
+  lastName      String?
+  registrations Registration[]
+  updatedAt     DateTime       @updatedAt
+}
+
+model Registration {
+  classRun   ClassRun        @relation(fields: [classRunId], references: [id])
+  classRunId String
+  createdAt  DateTime        @default(now())
+  id         String          @id @default(cuid())
+  paid       Float?
+  student    StudentProfile? @relation(fields: [studentId], references: [id])
+  studentId  String?
+  updatedAt  DateTime        @updatedAt
+}
