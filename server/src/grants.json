@@ -1,0 +1,530 @@
+[
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "reporter",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "reporter",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "reporter",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "reporter",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "reporter",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Session",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Session",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "reporter",
+    "resource": "Session",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "Session",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Session",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Session",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "reporter",
+    "resource": "Session",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "Session",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Session",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Session",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "reporter",
+    "resource": "Session",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "Session",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Session",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Session",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "reporter",
+    "resource": "Session",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "Session",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Session",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Session",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "reporter",
+    "resource": "Session",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "Session",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Class",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Class",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "reporter",
+    "resource": "Class",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "Class",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Class",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Class",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Class",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Class",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Class",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Class",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Class",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Class",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "reporter",
+    "resource": "Class",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "Class",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "StudentProfile",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "StudentProfile",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "reporter",
+    "resource": "StudentProfile",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "StudentProfile",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "StudentProfile",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "StudentProfile",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "StudentProfile",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "StudentProfile",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "StudentProfile",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "StudentProfile",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "StudentProfile",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "StudentProfile",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "reporter",
+    "resource": "StudentProfile",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "StudentProfile",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Registration",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Registration",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "reporter",
+    "resource": "Registration",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "Registration",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Registration",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Registration",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "reporter",
+    "resource": "Registration",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "Registration",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Registration",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Registration",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "reporter",
+    "resource": "Registration",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "Registration",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Registration",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Registration",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "reporter",
+    "resource": "Registration",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "Registration",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Registration",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "instructor",
+    "resource": "Registration",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "reporter",
+    "resource": "Registration",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "parent",
+    "resource": "Registration",
+    "action": "read:any",
+    "attributes": "*"
+  }
+]
